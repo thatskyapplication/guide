@@ -7,13 +7,13 @@
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "images/favicon.ico",
+  "favicon": "/images/favicon.ico",
   "navigation": {
     "pages": [
       "index"
     ]
   },
-  "logo": "images/caelus.webp",
+  "logo": "/images/caelus.webp",
   "navbar": {
     "links": [],
     "primary": {
