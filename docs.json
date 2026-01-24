@@ -13,9 +13,7 @@
       "guide",
       {
         "group": "Caelus",
-        "pages": [
-          "/caelus/guide"
-        ]
+        "pages": []
       }
     ]
   },
