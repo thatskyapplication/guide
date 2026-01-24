@@ -10,7 +10,13 @@
   "favicon": "/images/favicon.ico",
   "navigation": {
     "pages": [
-      "index"
+      "guide",
+      {
+        "group": "Caelus",
+        "pages": [
+          ""
+        ]
+      }
     ]
   },
   "logo": "/images/caelus.webp",
