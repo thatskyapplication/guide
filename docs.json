@@ -15,7 +15,8 @@
         "group": "Caelus",
         "expanded": true,
         "pages": [
-          "caelus/home"
+          "caelus/home",
+          "caelus/daily-guides"
         ]
       }
     ]
