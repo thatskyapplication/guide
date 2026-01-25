@@ -2,6 +2,12 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "maple",
   "name": "thatskyapplication",
+  "background": {
+    "color": {
+      "dark": "#1e2939",
+      "light": "#dff2fe"
+    }
+  },
   "colors": {
     "primary": "#4cbbcc",
     "light": "#6f68c9",
