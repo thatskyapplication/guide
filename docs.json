@@ -9,9 +9,9 @@
     }
   },
   "colors": {
-    "primary": "#4cbbcc",
-    "light": "#6f68c9",
-    "dark": "#4cbbcc"
+    "primary": "#000000",
+    "light": "#000000",
+    "dark": "#DFF2FE"
   },
   "favicon": "/images/favicon.ico",
   "navigation": {
@@ -35,5 +35,8 @@
       "label": "thatskyapplication",
       "href": "https://thatskyapplication.com"
     }
+  },
+  "appearance": {
+    "default": "system"
   }
 }
