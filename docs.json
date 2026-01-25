@@ -17,7 +17,8 @@
         "pages": [
           "caelus/home",
           "caelus/daily-guides",
-          "caelus/friendship-actions"
+          "caelus/friendship-actions",
+          "caelus/me"
         ]
       }
     ]
