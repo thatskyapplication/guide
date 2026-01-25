@@ -5,12 +5,12 @@
   "background": {
     "color": {
       "dark": "#101828",
-      "light": "#dff2fe"
+      "light": "#DFF2FE"
     }
   },
   "colors": {
-    "primary": "#000000",
-    "light": "#000000",
+    "primary": "#DFF2FE",
+    "light": "#101828",
     "dark": "#DFF2FE"
   },
   "favicon": "/images/favicon.ico",
