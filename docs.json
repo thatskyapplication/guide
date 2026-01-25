@@ -23,7 +23,12 @@
   },
   "logo": "/images/caelus.webp",
   "navbar": {
-    "links": [],
+    "links": [
+      {
+        "label": "",
+        "href": "https://discord.com/oauth2/authorize?client_id=982740693070012506"
+      }
+    ],
     "primary": {
       "type": "button",
       "label": "thatskyapplication",
@@ -32,5 +37,14 @@
   },
   "appearance": {
     "default": "system"
+  },
+  "banner": {
+    "content": "Invite Caelus"
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/thatskyapplication",
+      "discord": "https://discord.com/invite/dFJms52NgB"
+    }
   }
 }
