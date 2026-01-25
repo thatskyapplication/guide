@@ -14,20 +14,19 @@ There is also a `/krill` command for those who deserve it!
 
 ## Community GIFs
 
-<img
-  src="/images/1.gif"
-  alt="1"
-  title="1"
-  className="mr-auto"
-  style={{ width:"24%" }}
-/>
-
-<div
-  aria-label="Friendship action GIF"
-	className="w-full aspect-square bg-cover bg-center group-hover:scale-105 transition-transform duration-300"
-  role="img"
-  style={{ backgroundImage: `url("/images/1.gif")` }}
-/>
+{["/images/1.gif", "/images/3.gif", "/images/36.gif", "/images/7.gif", "/images/8.gif"].map((gif) => (
+  <div
+    className="group relative bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+    key={gif}
+  >
+    <div
+      aria-label="Friendship action GIF"
+      className="w-full aspect-square bg-cover bg-center group-hover:scale-105 transition-transform duration-300"
+      role="img"
+      style={{ backgroundImage: `url(${gif})` }}
+    />
+  </div>
+))}
 
 Daily guides are automatically posted at 00:00 PT every day. When you first set up daily guides, you might wonder when the next day's will come. The answer is obvious: the next day! That's 00:00, in case you _really_ needed that clarity.
 
