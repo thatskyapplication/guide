@@ -15,48 +15,37 @@ There is also a `/krill` command for those who deserve it!
 ## Community GIFs
 
 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-  {["/images/1.gif", "/images/3.gif", "/images/36.gif", "/images/7.gif", "/images/8.gif", "/images/44.gif"].map((gif) => (
-    <div
-      className="group relative bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
-      key={gif}
-    >
-      <div
-        aria-label="Friendship action GIF"
-        className="w-full aspect-square bg-cover bg-center group-hover:scale-105 transition-transform duration-300"
-        role="img"
-        style={{ backgroundImage: `url(${gif})` }}
-      />
-    </div>
-  ))}
+{["/images/1.gif", "/images/3.gif", "/images/36.gif", "/images/7.gif", "/images/8.gif", "/images/44.gif"].map((gif) => (
+<div
+  className="group relative bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+  key={gif}
+>
+  <div
+    aria-label="Friendship action GIF"
+    className="w-full aspect-square bg-cover bg-center group-hover:scale-105 transition-transform duration-300"
+    role="img"
+    style={{ backgroundImage: `url(${gif})` }}
+  />
+</div>
+))}
+
 </div>
 
-Daily guides are automatically posted at 00:00 PT every day. When you first set up daily guides, you might wonder when the next day's will come. The answer is obvious: the next day! That's 00:00, in case you _really_ needed that clarity.
+## Submit your GIF
 
-<Info>
-  Daily guides are distributed at 00:00, but the daily quests need manual input. You can expect them to appear between 0-30 minutes.
-</Info>
+Love what you see? These were all created by our amazing community! You can contribute your own GIF too!
 
-<img
-  src="/images/daily_guides_example.webp"
-  alt="Daily guides example"
-  title="Daily guides example"
-  style={{ width:"56%" }}
-/>
+### Requirements
 
-The time zone in this image is UTC+00:00, which is why the timestamp states 08:00 (Sky is 8 or 7 hours behind, depending on daylight savings).
+- Recorded on a device with native screen recording (iOS, macOS, etc.) to ensure elements are not visible (or have the experimental setting enabled to hide the UI)
+- Recorded in the highest definition mode possible
+- Must be an aspect ratio of 1:1
+- Must not exceed 512x512
+- Must not exceed 5 MB
+- Must not have noticeable compression
 
-You can also see an example of what shard eruptions look like here!
+Once you've ensured your GIF meets the requirements, head over to our [support server](https://discord.gg/BFT7EAhrNz) and check out the #friendship-actions channel to get started!
 
-## **Seeing daily guides ad hoc**
-
-You can view daily guides at any time by using the `/daily-guides` command. This will respond ephemerally to not interrupt any ongoing conversation.
-
-Daily guides are also accessible in the browser! You can share this page freely.
-
-<Card title="Daily guides" icon="clock" href="https://thatskyapplication.com/daily-guides">
-  View in your browser!
-</Card>
-
-## **I want to help set daily guides!**
-
-As mentioned above, daily quests need manual input. Anyone in the [support server](https://discord.gg/BFT7EAhrNz) can update the daily quests! Please read the documentation in the server or ask around for help!
+<Tip>
+  You may also submit a raw video and we'll try our best!
+</Tip>
