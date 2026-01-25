@@ -3,9 +3,9 @@
   "theme": "maple",
   "name": "thatskyapplication",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#47DEF5",
+    "light": "#6f68c9",
+    "dark": "#47DEF5"
   },
   "favicon": "/images/favicon.ico",
   "navigation": {
