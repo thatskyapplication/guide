@@ -2,16 +2,10 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "maple",
   "name": "thatskyapplication",
-  "background": {
-    "color": {
-      "dark": "#101828",
-      "light": "#DFF2FE"
-    }
-  },
   "colors": {
     "primary": "#DFF2FE",
-    "light": "#101828",
-    "dark": "#DFF2FE"
+    "light": "#FFFFFF",
+    "dark": "#000000"
   },
   "favicon": "/images/favicon.ico",
   "navigation": {
