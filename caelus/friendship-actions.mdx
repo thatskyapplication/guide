@@ -14,14 +14,20 @@ There is also a `/krill` command for those who deserve it!
 
 ## Community GIFs
 
-<Columns cols={2}>
-  <Card img="https://cdn.thatskyapplication.com/hugs/1.gif">
-    
-  </Card>
-  <Card img={`https://cdn.thatskyapplication.com/hugs/${Math.floor(Math.random() * 99) + 1}.gif`}>
-    
-  </Card>
-</Columns>
+<img
+  src="/images/1.gif"
+  alt="1"
+  title="1"
+  className="mr-auto"
+  style={{ width:"24%" }}
+/>
+
+<div
+  aria-label="Friendship action GIF"
+	className="w-full aspect-square bg-cover bg-center group-hover:scale-105 transition-transform duration-300"
+  role="img"
+  style={{ backgroundImage: `url("/images/1.gif")` }}
+/>
 
 Daily guides are automatically posted at 00:00 PT every day. When you first set up daily guides, you might wonder when the next day's will come. The answer is obvious: the next day! That's 00:00, in case you _really_ needed that clarity.
 
