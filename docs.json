@@ -53,5 +53,8 @@
   },
   "metadata": {
     "timestamp": true
+  },
+  "seo": {
+    "indexing": "navigable"
   }
 }
