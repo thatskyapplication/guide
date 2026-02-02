@@ -48,9 +48,6 @@
       "discord": "https://discord.com/invite/Y7d6xGX9nG"
     }
   },
-  "interaction": {
-    "drilldown": false
-  },
   "metadata": {
     "timestamp": true
   },
