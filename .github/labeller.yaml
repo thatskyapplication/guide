@@ -1,0 +1,9 @@
+en:
+ - changed-files:
+   - any-glob-to-any-file:
+     - index.mdx
+     - translating.mdx
+     - caelus/**/*
+fr:
+ - changed-files:
+   - any-glob-to-any-file: fr/**/*
