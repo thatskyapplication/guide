@@ -10,17 +10,17 @@
   "favicon": "/images/favicon.ico",
   "navigation": {
     "pages": [
-      "index",
-      "translating",
+      "docs/index",
+      "docs/translating",
       {
         "group": "Caelus",
         "expanded": true,
         "pages": [
-          "caelus/daily-guides",
-          "caelus/friendship-actions",
-          "caelus/me",
-          "caelus/notifications",
-          "caelus/welcome"
+          "docs/caelus/daily-guides",
+          "docs/caelus/friendship-actions",
+          "docs/caelus/me",
+          "docs/caelus/notifications",
+          "docs/caelus/welcome"
         ]
       }
     ]
