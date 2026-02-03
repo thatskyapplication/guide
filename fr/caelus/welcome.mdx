@@ -1,0 +1,70 @@
+---
+title: "Welcome"
+description: "Configure welcome messages in your server!"
+icon: "door-open"
+---
+
+<Expandable title="Permissions">
+  <Columns cols={2}>
+    <Card title="You">
+      `Manage Server`
+    </Card>
+    <Card title="Caelus">
+      - `Manage Server` (for disabling Discord join messages)
+      - `Read Message History` (for hugging)
+      - `Send Messages`
+      - `View Channel`
+    </Card>
+  </Columns>
+</Expandable>
+
+## Setting up welcome messages
+
+Welcome messages are sent whenever someone joins the server. Other applications do this, but Caelus makes it Sky-themed.
+
+Setting them up is easy. Use `/configure welcome`! Once you hit the obvious edit button, a modal will appear asking you to edit a number of things:
+
+<img
+  src="/images/welcome-modal.webp"
+  alt="Welcome Modal"
+  title="Welcome Modal"
+  style={{ width:"47%" }}
+/>
+
+Enter your desired information, and a preview of what the welcome message will look like will be revealed to you!
+
+### Welcome message recommendations
+
+- `{{user}}` mentions the user who joined
+  - No other mentions will work, but they will appear correctly
+- Mentions don't autocomplete in modals. It is recommended to type it out into a text channel and then cope & paste the contents into the modal
+- Custom emojis may be used from the server & Caelus itself
+
+### Disabling Discord join messages
+
+You may have this enabled:
+
+<img
+  src="/images/discord-system-messages.webp"
+  alt="Discord System Messages"
+  title="Discord System Messages"
+  style={{ width:"74%" }}
+/>
+
+If left enabled, both Discord and Caelus will trigger for join messages. It is recommended to **disable** the above setting to deduplicate the join messages. Caelus will offer a way to do this for you if Caelus has `Manage Server`, but if Caelus does not have it, you need someone with `Manage Server` to disable that setting.
+
+## Examples
+
+Here are some real examples of how they are used:
+
+<Columns cols={3}>
+  <Card title="Sky Sanctuary">
+    ![Welcome Example 1](/images/welcome-example-1.webp)
+  </Card>
+  <Card title="Starfield💫">
+    ![Welcome Example 2](/images/welcome-example-2.webp)
+  </Card>
+  <Card title="Eve's Daycare">
+    ![Welcome Example 3](/images/welcome-example-3.webp)
+  </Card>
+</Columns>

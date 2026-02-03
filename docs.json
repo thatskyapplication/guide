@@ -9,18 +9,41 @@
   },
   "favicon": "/images/favicon.ico",
   "navigation": {
-    "pages": [
-      "index",
-      "translating",
+    "languages": [
       {
-        "group": "Caelus",
-        "expanded": true,
+        "language": "en",
         "pages": [
-          "caelus/daily-guides",
-          "caelus/friendship-actions",
-          "caelus/me",
-          "caelus/notifications",
-          "caelus/welcome"
+          "index",
+          "translating",
+          {
+            "group": "Caelus",
+            "expanded": true,
+            "pages": [
+              "caelus/daily-guides",
+              "caelus/friendship-actions",
+              "caelus/me",
+              "caelus/notifications",
+              "caelus/welcome"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "fr",
+        "pages": [
+          "fr/index",
+          "fr/translating",
+          {
+            "group": "Caelus",
+            "expanded": true,
+            "pages": [
+              "fr/caelus/daily-guides",
+              "fr/caelus/friendship-actions",
+              "fr/caelus/me",
+              "fr/caelus/notifications",
+              "fr/caelus/welcome"
+            ]
+          }
         ]
       }
     ]
