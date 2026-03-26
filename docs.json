@@ -77,5 +77,8 @@
   },
   "seo": {
     "indexing": "navigable"
+  },
+  "fonts": {
+    "family": "Geist"
   }
 }
