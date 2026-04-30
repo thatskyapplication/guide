@@ -9,6 +9,7 @@ icon: "clock"
     <Card title="You">
       `Manage Server`
     </Card>
+
     <Card title="Caelus">
       - `Send Messages` for text channels and announcement channels
       - `Send Messages in Threads` for threads
@@ -20,7 +21,13 @@ icon: "clock"
 
 ## Setting up daily guides
 
-Use `/configure daily-guides`. That's all.
+Use `/configure daily-guides`. You'll be presented with a super simple response:
+
+![Daily Guides Configure](/images/daily-guides-configure.webp)
+
+Once you choose a channel to send daily guides in, you're good to go.
+
+There is also an option to configure the format of daily guides. The default is the compact format, but there is also a media option for those who want to see all assets immediately. This will result in a big response!
 
 ## What will it look like?
 
@@ -37,13 +44,13 @@ Daily guides are automatically posted at 00:00 PT every day. When you first set 
   style={{ width:"56%" }}
 />
 
-The time zone in this image is UTC+00:00, which is why the timestamp states 08:00 (Sky is 8 or 7 hours behind, depending on daylight savings).
+This is an example of the compact format. The time zone in this image is UTC\+00:00, which is why the timestamp states 08:00 (Sky is 8 or 7 hours behind, depending on daylight savings).
 
 You can also see an example of what shard eruptions look like here!
 
 ## Seeing daily guides ad hoc
 
-You can view daily guides at any time by using the `/daily-guides` command. This will respond ephemerally to not interrupt any ongoing conversation.
+You can view daily guides at any time by using the `/daily-guides` command. This will respond ephemerally to not interrupt any ongoing conversation. You can also optionally choose whether to view them in a media format.
 
 Daily guides are also accessible in the browser! You can share this page freely.
 
