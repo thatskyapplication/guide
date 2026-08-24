@@ -7,7 +7,7 @@
     "light": "#FFFFFF",
     "dark": "#101828"
   },
-  "favicon": "/images/favicon.ico",
+  "favicon": "/images/logo.svg",
   "navigation": {
     "languages": [
       {
@@ -49,7 +49,7 @@
       }
     ]
   },
-  "logo": "/images/caelus.webp",
+  "logo": "/images/logo.svg",
   "navbar": {
     "links": [
       {
